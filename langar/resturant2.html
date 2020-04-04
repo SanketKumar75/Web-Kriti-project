@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pizza Resraurent</title>
+<script type="text/javascript">
+    function incrementValue1()
+{
+    var value = parseInt(document.getElementById('number1').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number1').value = value;
+}
+function incrementValue2()
+{
+    var value = parseInt(document.getElementById('number2').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number2').value = value;
+}
+function incrementValue3()
+{
+    var value = parseInt(document.getElementById('number3').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number3').value = value;
+}
+function decrementValue1()
+{
+    var value = parseInt(document.getElementById('number1').value, 10);
+    if(value>0){
+    value = isNaN(value) ? 0 : value;
+    value--;
+    document.getElementById('number1').value = value;}
+}
+function decrementValue2()
+{
+    var value = parseInt(document.getElementById('number2').value, 10);
+    if(value>0){
+    value = isNaN(value) ? 0 : value;
+    value--;
+    document.getElementById('number2').value = value;}
+}
+function decrementValue3()
+{
+    var value = parseInt(document.getElementById('number3').value, 10);
+    if(value>0){
+    value = isNaN(value) ? 0 : value;
+    value--;
+    document.getElementById('number3').value = value;}
+}
+  </script>
+  <style>
+.first
+{
+    float: left;
+}
+</style>
+</head>
+<body>
+    <div style="    background-image: url('https://dailyhdwallpaper.com/wp-content/uploads/Pizza-Food-Delicious-Photo-Wallpaper-2048x1536.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 570px; 
+    width: 99%;
+    position: absolute;">
+<div class="first">
+ <a href="index.html"><img src="https://1.bp.blogspot.com/-XH2Bombqg8E/XlC5QTkZvuI/AAAAAAAAAQ4/IHJmZda6tEoed70j1HN_t_T5luccg4e8QCNcBGAsYHQ/s200/logo.jpg.jpeg" style="margin: 10px; height: 100px;float:left;"></a>
+ </div>
+ <br> <br>
+ <div style="font-size: 28px; margin-left: 1000px;">
+ <span >
+   <a href="index.html" style="text-decoration: none;margin-top:0px;display:inline; font-color: white;">HOME</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="login.html" style=" font-color:white; text-decoration: none;display:inline;">LOGOUT</a>
+ </span>
+ <br> <br> <br> <br>
+</div>
+<h1 style="font-size: 70px; text-align: center;color:rgb(142, 49, 155); font-weight: 300; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">
+ <strong>Mac-Domino</strong> 
+</h1>
+<h2 style="font-size: 25px; text-align: center; color:rgb(96, 37, 204); font-weight: 300; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ">
+    <strong>Near Gwalior fort, Gwalior</strong> 
+</h2>
+<h4 style="font-size: 25px; text-align: center; color:rgb(1, 16, 19); font-weight: 300; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ">
+    <strong>Know me know Flavour!,<br> No me no Flvaour!</strong> 
+</h4>
+<br> <br> <br>
+<center><h1>MENU</h1></center>
+<div style="border-width:2px;border-style:solid;margin-top:10px; background-color:pink; border-radius: 50px;height:200px; ">
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&w=1000&q=80" style="border: 2px solid black; border-radius:20px;margin-top:10px; margin-left:50px; margin-right:300px;margin-bottom:45px;width:500px;height:180px; float:left;"/>
+<p style="color:black; font-size: 30px;"> VEG-LOADED PIZZA</p> 
+<p style="margin-top:10px;color:black;font-size: 20px;margin-bottom:0px;">Rich with fresh Cheese,Healthy vegies </p>
+<form>
+  <table>
+    <tr><td>
+   <input type="text" style="width:30px;border-width:2px;border-style:solid;background-color:lightgrey;margin-left:400px;height:35px;border-color:maroon;"id="number1" value=" "+"0"/>
+   <input type="button" style="border-width:2px;border-style:solid;border-color:maroon;background-color:lightgrey;height:35px;" onclick="incrementValue1()" value="+" />
+   <input type="button" style="border-width:2px;border-style:solid;background-color:lightgrey;height:35px;border-color:maroon;" onclick="decrementValue1()" value="-" />
+ </td>
+ <td><p style="font-weight:bold;font-size:35px;margin-left:30px;">140/-</p>
+ </td></tr></table>
+</form>
+</div>
+<div style="border-width:2px;border-style:solid;margin-top:20px; background-color:yellow;border-radius: 50px;height:200px; ">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCeguaXdCS6KnShhszVqYJ9m69PVJZFjR5gQm6B7nGfLQ_UdoA" style="border: 2px solid black;border-radius:20px; margin-left:50px; margin-top:0px;margin-right:300px;width:500px;height:180px; float:left;"/>
+<p style="margin-top:30px;color: black;font-size: 30px;">KING BURGER</p>
+<p style="color:black;font-size:20px;margin-bottom:0px;"> Can't Resist! </p>
+<form>
+  <table style="margin-bottom:0px;">
+    <tr>
+      <td>
+   <input type="text" style="width:30px;border-width:2px;border-style:solid;margin-left:500px;margin-left:400px;height:35px;height:35px;background-color:lightgrey;border-color:maroon;"id="number2" value=""+ "0"/>
+   <input type="button" style="border-width:2px;border-style:solid;background-color:lightgrey;border-color:maroon;height:35px;" onclick="incrementValue2()" value="+" />
+   <input type="button" style="border-width:2px;border-style:solid;background-color:lightgrey;height:35px;border-color:maroon;" onclick="decrementValue2()" value="-" />
+ </td>
+ <td ><p style="margin-left:30px;font-weight:bold;font-size:35px;"> 80/-</p></td>
+</tr>
+</table>
+</form> 
+</div>
+<div style="border-width:2px;border-style:solid;margin-top:20px; background-color:#33EEFF; height:200px;border-radius: 50px;">
+<img src="https://img.taste.com.au/2z0hUTnc/w1200-h630-cfill/taste/2016/11/rachel-87711-2.jpeg" style="border: 2px solid black;border-radius:20px; margin-left:50px; margin-right:300px;margin-bottom:50px;; width:500px;height:180px; float:left;margin-top: 10px;"/>
+<p style="margin-top:10px;margin-bottom:10px;margin-top:30px;color: black;font-size: 30px;"> FRENCH FRIES</p> 
+<p style="color:black;font-size:20px;margin-bottom:0px">Crispy N Spicy!</p>
+<form>
+  <table>
+    <tr><td>
+   <input type="text" style="width:30px; border-width:2px;background-color:lightgrey;border-style:solid;margin-left:400px;height:35px;border-color:maroon;"id="number3" value=" " +"0"/>
+   <input type="button" style="border-width:2px;border-style:solid;background-color:lightgrey;height:35px;border-color:maroon;" onclick="incrementValue3()" value="+" />
+   <input type="button" style="border-width:2px;border-style:solid;background-color:lightgrey;height:35px;border-color:maroon;" onclick="decrementValue3()" value="-" /></td>
+   <td><p style="font-weight: bold;font-size:35px;margin-left:30px;">120/-</p>
+</form>
+</div>
+</div>
+</div>  
+</body>
+</html>
